@@ -1,0 +1,16 @@
+''' This programm converts miles into kilometers '''
+
+# Author:   Daniel.S
+# Date:     23.01.25
+
+FAKTOR = 1.609344 # this is the factor to calculate km
+
+
+### INPUT ###
+miles = int(input("Please enter your miles value: "))
+
+### PROCESS ###
+kilometer = miles * FAKTOR 
+
+### OUTPUT ###
+print(kilometer)
