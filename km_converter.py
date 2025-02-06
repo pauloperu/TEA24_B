@@ -7,7 +7,7 @@ FAKTOR = 1.609344 # this is the factor to calculate km
 
 
 ### INPUT ###
-miles = int(input("Please enter your miles value: "))
+miles = int(input("Enter your miles value: "))
 
 ### PROCESS ###
 kilometer = miles * FAKTOR 
